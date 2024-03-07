@@ -1,1 +1,0 @@
-@"d:\onedrive\zukowicz.github.io\.venvsite\scripts\python.exe" "d:\onedrive\zukowicz.github.io\.venvsite\Scripts\markdown_py" %*
