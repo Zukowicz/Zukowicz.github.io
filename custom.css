@@ -1,0 +1,76 @@
+.experience-custom .accordion-button {
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.03em;
+}
+
+.experience-custom .accordion-button.collapsed {
+  color: rgba(255,255,255,0.55);
+}
+
+.experience-custom .accordion-body {
+  color: rgba(255,255,255,0.8);
+  line-height: 1.6;
+}
+
+.experience-custom .accordion-item {
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.experience-custom .accordion-button {
+  background-color: rgb(125, 18, 255) !important;
+}
+
+.experience-custom .accordion-button::after {
+  filter: invert(1); /* makes arrow visible on dark background */
+}
+
+/* FORCE accordion header text to be visible (collapsed + open) */
+.experience-custom .accordion-button,
+.experience-custom .accordion-button span,
+.experience-custom .accordion-button * {
+  color: rgba(255,255,255,0.85) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Keep collapsed state slightly dimmer (still visible) */
+.experience-custom .accordion-button.collapsed,
+.experience-custom .accordion-button.collapsed span,
+.experience-custom .accordion-button.collapsed * {
+  color: rgba(255,255,255,0.70) !important;
+}
+
+
+/* --- Achievements: smaller tiles + smaller text --- */
+#achievements .card {
+  padding: 0.75rem !important;     /* overrides p-3 */
+  margin-top: 0.5rem !important;   /* overrides my-3 */
+  margin-bottom: 0.5rem !important;
+}
+
+/* Title */
+#achievements .card-title {
+  font-size: 0.95rem !important;
+  margin-bottom: 0.35rem !important;
+  font-weight: 500 !important;
+}
+
+/* Body text */
+#achievements .card-text {
+  font-size: 0.85rem !important;
+  line-height: 1.4 !important;
+  opacity: 0.85;
+}
+
+/* If the theme makes secondary-font huge, force it */
+#achievements .secondary-font {
+  font-size: 0.85rem !important;
+}
+
+/* Optional: make the image smaller / less dominant */
+#achievements .card-img-top {
+  max-height: 140px;
+  object-fit: contain;
+}
+
+#achievements { outline: 4px solid rgb(106, 255, 0) !important; }

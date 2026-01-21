@@ -1,4 +1,4 @@
-#single {
+min-height#single {
     padding: 60px 0;
     line-height: 1.7em;
     font-size: 17px;
@@ -248,5 +248,5 @@
     background-color: var(--primary-color);
     color: var(--secondary-color);
     transition: .5s;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.2);
 }

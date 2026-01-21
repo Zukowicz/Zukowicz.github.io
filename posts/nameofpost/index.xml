@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nameofpost on Zukowicz portfolio</title>
-    <link>https://zukowicz.github.io/posts/nameofpost/</link>
+    <link>http://localhost:1313/posts/nameofpost/</link>
     <description>Recent content in Nameofpost on Zukowicz portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://zukowicz.github.io/posts/nameofpost/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/nameofpost/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

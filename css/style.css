@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+/* Set the global font */
+:root {
+  --bs-font-sans-serif: "JetBrains Mono", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--bs-font-sans-serif) !important;
+}
+
+/* Optional: make headings match too */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bs-font-sans-serif) !important;
+}
